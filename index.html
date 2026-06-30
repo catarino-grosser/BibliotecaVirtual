@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca Virtual</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div>
+      <h1>Biblioteca Virtual</h1>
+      <p>Escolha um livro na estante e leia online.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="biblioteca" class="biblioteca">
+      <div class="secao-titulo">
+        <h2>Estante de livros</h2>
+        <span id="totalLivros"></span>
+      </div>
+
+      <div id="estante" class="estante"></div>
+    </section>
+
+    <section id="leitor" class="leitor oculto">
+      <div class="barra-leitor">
+        <button id="btnVoltar" class="btn secundario">← Biblioteca</button>
+        <div class="info-leitor">
+          <h2 id="tituloLivro">Livro</h2>
+          <p id="contadorPaginas">Página 1</p>
+        </div>
+      </div>
+
+      <div class="area-pagina">
+        <button id="btnAnterior" class="nav lateral">‹</button>
+        <img id="imagemPagina" src="" alt="Página do livro" />
+        <button id="btnProxima" class="nav lateral">›</button>
+      </div>
+
+      <div class="controles">
+        <button id="btnAnteriorRodape" class="btn">← Anterior</button>
+        <button id="btnProximaRodape" class="btn">Próxima →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Biblioteca Virtual • Leitura online</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
