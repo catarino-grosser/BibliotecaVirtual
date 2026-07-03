@@ -22,6 +22,13 @@ const livros = [
     totalArquivos: 6,
     descricao: "Um exemplo de cadastro. Troque pelo seu livro."
   }
+  {
+    id: "A-Luz-do-Mundo",
+    titulo: "A Luz do Mundo",
+    pasta: "livros/A-Luz-do-Mundo",
+    totalArquivos: 18,
+    descricao: "A vida de Jesus Cristo para crianças com imagens para colorir.."
+  }
 
   // Para adicionar outro livro, copie o modelo abaixo:
   // ,{
